@@ -63,14 +63,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bls12381-add-test"
-version = "0.1.0"
-dependencies = [
- "num",
- "sp1-zkvm",
-]
-
-[[package]]
 name = "byte-slice-cast"
 version = "1.2.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -201,6 +193,14 @@ dependencies = [
  "bitvec",
  "rand_core",
  "subtle",
+]
+
+[[package]]
+name = "fp384-add"
+version = "0.1.0"
+dependencies = [
+ "num",
+ "sp1-zkvm",
 ]
 
 [[package]]
